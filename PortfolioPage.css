@@ -29,31 +29,48 @@ body {
 	background-color: 
 }
 
-#form {
+form {
 	margin: 0 5% 0 5%; 
-	width: auto;
+/*	width: auto;*/
 	padding: 12px;
 	border: 1px solid #ccc;
-	border-radius: 2px;
+	border-radius: 20px;
 	box-sizing: border-box;
 	margin-top: 6px;
 	margin-bottom: 16px;
-	resize: vertical;
+/*	resize: vertical;*/
+	display: block;
 }
 
 textarea {
 	outline: none;
 	overflow: auto;
+	border-radius: 0.5em;
+	box-sizing: border-box;
+	min-height: 4em;
+	width: 50%; 
+	max-width: 80%;
+	max-height: 20em;
+}
+
+label {
+	display: block;
 }
 
 input[type=text] {
 	outline: none;
+	border-radius: 0.5em;
+}
+
+input[type=email] {
+	outline: none;
+	border-radius: 0.5em;
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: cornflowerblue;
     color: white;
-    padding: 12px 20px;
+    padding: 10px 15px;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    border-radius: 0.5em;
+}
