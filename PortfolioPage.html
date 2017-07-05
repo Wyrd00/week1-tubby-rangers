@@ -12,22 +12,23 @@
 
 	<nav id="mainnav" class="NavNav">
 		<div id="firstcontainer">
-			<a href="#about">About</a>
-			<a href="#team">Team</a>
-			<a href="#form">Contact Us</a>
+			<img class="logo" src="./images/logo.png">
+			<a href="#form" class="anchorlink">Contact Us</a>
+			<a href="#team" class="anchorlink">Team</a>
+			<a href="#about" class="anchorlink">About</a>
 		</div>
 	</nav>
 
 	<div class="main">
 		<header class="header">
 			<div class="firstcontainer">
-				<div class="secondcontainer">
+				<div class="headercontainer">
 					<h1>This is our Header</h1>
 					<ul class="list-inline">
-						<li>Guns</li>
-						<li>Balloons</li>
-						<li>Spaceship</li>
-						<li>Blows</li>
+						<ul>Guns</ul>
+						<ul>Balloons</ul>
+						<ul>Spaceship</ul>
+						<ul>Blows</ul>
 					</ul>
 				</div>
 			</div>
@@ -37,22 +38,59 @@
 			<div class="firstcontainer">
 				<div class="row1">
 					<h2>About</h2>
-						<div class="row2">
-							<ul class="aboutlist">
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
 				</div>
-			</div>
+			<div class="secondcontainer">
+				<div class="row2">
+					<ul class="aboutlist">
+						<ul>
+							<div class="project">
+								<img class="projectimages" src="./images/tubby-party-1.jpg" alt="Project1">
+									<p class="projectdescription">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,.</p>
+							</div>
+						</ul>
+						<ul>
+							<div class="project">
+								<img class="projectimages" src="./images/tubby-party-5.jpg" alt="Project1">
+									<p class="projectdescription">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,.</p>
+							</div>
+						</ul>
+						<ul>
+							<div class="project">
+								<img class="projectimages" src="./images/tubby-party-3.jpg" alt="Project1">
+									<p class="projectdescription">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,.</p>
+							</div>
+						</ul>
+					</ul>
+				</div>
 		</section>
 
 		<section id="team">
-			<h2>Team</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
+			<div class="firstcontainer">
+				<div class="row1">
+					<h2>Team</h2>
+				</div>
+			<div class="secondcontainer">
+				<div class="row2">
+					<div class="teammembers">
+						<figure class="photo">
+							<img src="./images/github.png" alt="Tomato">
+							<figcaption>Tinky Winky</figcaption>
+						</figure><!-- 
+					 --><figure class="photo">
+							<img src="./images/github.png" alt="Banana">
+							<figcaption>Dipsy</figcaption>
+						</figure><!-- 
+					 --><figure class="photo">
+							<img src="./images/github.png" alt="Mango">
+							<figcaption>LaLa</figcaption>
+						</figure><!-- 
+					 --><figure class="photo">
+							<img src="./images/github.png" alt="Apple">
+							<figcaption>Po</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section id="form">
@@ -60,27 +98,30 @@
 			<form method="POST" action="" name="sentMessage" id="Contactform">
 			<h2>Contact Us</h2>
 
-			
-			<label for="fname">First Name
-  			<input type="text" id="fname" name="First name" placeholder="First name..." required="You need to put in your first name">
-  			</label>
+			<div class="formline">
+				<label for="fname">First Name
+	  			<input type="text" id="fname" name="First name" placeholder="First name..." required="You need to put in your first name">
+	  			</label>
+  			</div>
   			
 
-  			
-		    <label for="lname">Last Name
-		    <input type="text" id="lname" name="Last name" placeholder="Last name..." required="You need to put in your last name">
-		    </label>
+  			<div class="formline">
+			    <label for="lname">Last Name
+			    <input type="text" id="lname" name="Last name" placeholder="Last name..." required="You need to put in your last name">
+			    </label>
+		    </div>
 
-		    
-		    <label for="email">Email
-		    <input type="email" id="email" name="Email" placeholder="abc@email.com" required>
-		    </label>
+		    <div class="formline">
+			    <label for="email">Email
+			    <input type="email" id="email" name="Email" placeholder="abc@email.com" required>
+			    </label>
+		    </div>
 
-		    
-		    <label for="message">Message</label>
-	    	
-	    	<textarea id="subject" name="subject" placeholder="Write us something..."></textarea>
-	    	
+		    <div class="formline">
+			    <label for="message">Message</label>
+		    	
+		    	<textarea id="subject" name="subject" placeholder="Write us something..."></textarea>
+	    	</div>
 
 		    <input type="submit" name="submit">
 		    </form>
@@ -88,7 +129,18 @@
 	</div>
 
 	<footer>	
-		<quote>Copyright</quote>
+		<ul class="icons">
+			<ul><a href="https://github.com" class="icon alt" target="_blank"><img src="./images/github.png" alt=""/><span class="label"></span></a></ul>
+		</ul>
+		<ul class="icons">
+			<ul><a href="https://linkedin.com" class="icon alt" target="_blank"><img src="./images/linkedin.png" alt=""/><span class="label"></span></a></ul>
+		</ul>
+		<ul class="icons">
+			<ul><a href="https://codewars.com" class="icon alt" target="_blank"><img src="./images/codewars.png" alt=""/><span class="label"></span></a></ul>
+		</ul>
+		<ul class="icons">
+			<ul><a href="https://youtube.com" class="icon alt" target="_blank"><img src="./images/youtube.png" alt=""/><span class="label"></span></a></ul>
+		</ul>
 	</footer>
 
 </body>
