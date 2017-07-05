@@ -73,19 +73,19 @@
 				<div class="row2">
 					<div class="teammembers">
 						<figure class="photo">
-							<img src="./images/github.png" alt="Tomato">
+							<img src="./images/TinkyWinky.jpg" alt="Purple Alien Blob">
 							<figcaption>Tinky Winky</figcaption>
 						</figure><!-- 
 					 --><figure class="photo">
-							<img src="./images/github.png" alt="Banana">
+							<img src="./images/Dipsy.html" alt="Green Alien Blob">
 							<figcaption>Dipsy</figcaption>
 						</figure><!-- 
 					 --><figure class="photo">
-							<img src="./images/github.png" alt="Mango">
+							<img src="./images/paulhanna.jpeg" alt="Yellow Alien Blob">
 							<figcaption>LaLa</figcaption>
 						</figure><!-- 
 					 --><figure class="photo">
-							<img src="./images/github.png" alt="Apple">
+							<img src="./images/paulhanna.jpeg" alt="Red Alien Blob">
 							<figcaption>Po</figcaption>
 						</figure>
 					</div>
@@ -93,40 +93,55 @@
 			</div>
 		</section>
 
-		<section id="form">
+    <section id="form">
 
-			<form method="POST" action="" name="sentMessage" id="Contactform">
-			<h2>Contact Us</h2>
+        <form method="POST" action="" name="sentMessage" id="Contactform">
+        <h2>Contact Us</h2>
 
-			<div class="formline">
-				<label for="fname">First Name
-	  			<input type="text" id="fname" name="First name" placeholder="First name..." required="You need to put in your first name">
-	  			</label>
-  			</div>
-  			
+        <div class="formline">
 
-  			<div class="formline">
-			    <label for="lname">Last Name
-			    <input type="text" id="lname" name="Last name" placeholder="Last name..." required="You need to put in your last name">
-			    </label>
-		    </div>
+            <label for="fname">
+              <div class="request">First Name</div>
+                <div class="inputbox">
+                  <input type="text" id="fname" name="First name" placeholder="First name..." required="You need to put in your first name">
+                </div>
+              </label>
+          </div>
 
-		    <div class="formline">
-			    <label for="email">Email
-			    <input type="email" id="email" name="Email" placeholder="abc@email.com" required>
-			    </label>
-		    </div>
 
-		    <div class="formline">
-			    <label for="message">Message</label>
-		    	
-		    	<textarea id="subject" name="subject" placeholder="Write us something..."></textarea>
-	    	</div>
+          <div class="formline">
+            <label for="lname">
+              <div class="request">Last Name</div>
+                <div class="inputbox">
+                  <input type="text" id="lname" name="Last name" placeholder="Last name..." required="You need to put in your last name">
+               </div>
+            </label>
+        </div>
 
-		    <input type="submit" name="submit">
-		    </form>
-		</section>
-	</div>
+        <div class="formline">
+            <label for="email">
+              <div class="request">Email</div>
+                <div class="inputbox">
+                  <input type="email" id="email" name="Email" placeholder="abc@email.com" required>
+                </div>
+            </label>
+        </div>
+
+	    <div class="extraspace">
+	        <div class="formline">
+	            <label for="message">
+	              <div class="request">Message</div>
+
+	              <div class="inputbox">
+	                <textarea id="subject" name="subject" placeholder="Write us something..."></textarea>
+	              </div>
+	            </label>
+	        </div>
+	    </div>
+
+        <input type="submit" name="submit">
+        </form>
+    </section>
 
 	<footer>	
 		<ul class="icons">
