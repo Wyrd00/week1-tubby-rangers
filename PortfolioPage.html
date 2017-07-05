@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta author="TubbyTeam"/>
 	<meta description="portfolio page"/>
 	<title>TubbyRangers</title>
-
+	<link rel="icon" type="image/png" href="./images/favicon.png" />
 	<link rel="stylesheet" type="text/css" href="portfoliopage.css"/>
 </head>
 
@@ -12,7 +12,7 @@
 
 	<nav id="mainnav" class="NavNav">
 		<div id="firstcontainer">
-			<img class="logo" src="./images/logo.png">
+			<img class="logo" src="./images/logo.png" alt="Logo of the Tubby Team">
 			<a href="#form" class="anchorlink">Contact Us</a>
 			<a href="#team" class="anchorlink">Team</a>
 			<a href="#about" class="anchorlink">About</a>
@@ -23,12 +23,12 @@
 		<header class="header">
 			<div class="firstcontainer">
 				<div class="headercontainer">
-					<h1>This is our Header</h1>
+					<h1>We catch flies with our toes</h1>
 					<ul class="list-inline">
 						<ul>Guns</ul>
 						<ul>Balloons</ul>
-						<ul>Spaceship</ul>
-						<ul>Blows</ul>
+						<ul>Spaceships</ul>
+						<ul>Fat</ul>
 					</ul>
 				</div>
 			</div>
@@ -73,19 +73,19 @@
 				<div class="row2">
 					<div class="teammembers">
 						<figure class="photo">
-							<img src="./images/TinkyWinky.jpg" alt="Purple Alien Blob">
+							<img src="./images/Tinky-Winky.jpg" alt="Tinky Winky">
 							<figcaption>Tinky Winky</figcaption>
-						</figure><!-- 
+						</figure><!--
 					 --><figure class="photo">
-							<img src="./images/Dipsy.html" alt="Green Alien Blob">
+							<img src="./images/Dipsy.jpg" alt="Dipsy">
 							<figcaption>Dipsy</figcaption>
-						</figure><!-- 
+						</figure><!--
 					 --><figure class="photo">
-							<img src="./images/paulhanna.jpeg" alt="Yellow Alien Blob">
-							<figcaption>LaLa</figcaption>
-						</figure><!-- 
+							<img src="./images/Laa-Laa.jpg" alt="Laa Laa">
+							<figcaption>Laa Laa</figcaption>
+						</figure><!--
 					 --><figure class="photo">
-							<img src="./images/paulhanna.jpeg" alt="Red Alien Blob">
+							<img src="./images/PO'-.jpg" alt="Po">
 							<figcaption>Po</figcaption>
 						</figure>
 					</div>
@@ -127,34 +127,36 @@
             </label>
         </div>
 
-	    <div class="extraspace">
-	        <div class="formline">
-	            <label for="message">
-	              <div class="request">Message</div>
+		    <div class="extraspace">
+		        <div class="formline">
+		            <label for="message">
+		              <div class="request">Message</div>
+			              <div class="inputbox">
+			                <textarea id="message" name="message" placeholder="Write us something..." minlength="50" maxlength="2000" required></textarea>
+			              </div>
+		            </label>
+		        </div>
+		    </div>
 
-	              <div class="inputbox">
-	                <textarea id="subject" name="subject" placeholder="Write us something..."></textarea>
-	              </div>
-	            </label>
-	        </div>
-	    </div>
-
-        <input type="submit" name="submit">
+				<div class="formbuttons">
+					<input type="submit" name="submit">
+					<input type="reset" value="Reset">
+				</div>
         </form>
     </section>
 
-	<footer>	
+	<footer>
 		<ul class="icons">
-			<ul><a href="https://github.com" class="icon alt" target="_blank"><img src="./images/github.png" alt=""/><span class="label"></span></a></ul>
+			<ul><a href="https://github.com" class="icon alt" target="_blank"><img src="./images/github.png" alt="Connect to Github"/><span class="label"></span></a></ul>
 		</ul>
 		<ul class="icons">
-			<ul><a href="https://linkedin.com" class="icon alt" target="_blank"><img src="./images/linkedin.png" alt=""/><span class="label"></span></a></ul>
+			<ul><a href="https://linkedin.com" class="icon alt" target="_blank"><img src="./images/linkedin.png" alt="Connect to Linkedin"/><span class="label"></span></a></ul>
 		</ul>
 		<ul class="icons">
-			<ul><a href="https://codewars.com" class="icon alt" target="_blank"><img src="./images/codewars.png" alt=""/><span class="label"></span></a></ul>
+			<ul><a href="https://codewars.com" class="icon alt" target="_blank"><img src="./images/codewars.png" alt="Connect to Codewars"/><span class="label"></span></a></ul>
 		</ul>
 		<ul class="icons">
-			<ul><a href="https://youtube.com" class="icon alt" target="_blank"><img src="./images/youtube.png" alt=""/><span class="label"></span></a></ul>
+			<ul><a href="https://youtube.com" class="icon alt" target="_blank"><img src="./images/youtube.png" alt="Connect to Youtube"/><span class="label"></span></a></ul>
 		</ul>
 	</footer>
 

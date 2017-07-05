@@ -27,8 +27,12 @@
 
 }
 
-.anchorlink {
-
+a.anchorlink {
+	display: block;
+	position: relative;
+	margin-right: 2%;
+	/*top: -250px;*/
+	/*visibility: hidden;*/
 }
 
 .main {
@@ -38,9 +42,8 @@
 .list-inline ul {
 	list-style: none;
 	display: inline-block;
-	padding-right: 5%; 
+	padding-right: 5%;
 	padding-left: 1%;
-	
 }
 
 body {
@@ -55,11 +58,9 @@ header {
 	background-position: 50% 50%;
 	height: 500px;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3vw;
 	opacity: 0.8;
-
 }
-
 
 .firstcontainer {
 	padding-top: 50px;
@@ -71,7 +72,7 @@ header {
 .headercontainer {
 	width: 100%;
 	position: absolute;
-	top: 40%;
+	top: 300px;
 	transform: translateY(-50%);
 	left: 50%;
 	transform: translateX(-50%);
@@ -80,8 +81,9 @@ header {
 
 .logo  {
 	display: inline-block;
-	max-width: ;
+	/*max-width: ;*/
 	height: 3em;
+	margin-left: 4%;
 /*	box-sizing: border-box;
 */}
 
@@ -99,7 +101,7 @@ header {
 .project {
 	position: relative;
 	padding: 2%;
-	z-index: 1; 	
+	z-index: 1;
 }
 
 .projectimages {
@@ -116,6 +118,7 @@ header {
 	transform: translateY(-50%);
 	left: 36%;
 	width: 62%;
+	font-size: 2vw;
 }
 
 .photo {
@@ -189,6 +192,7 @@ form {
   transform: translateY(-50%);
   left: 36%;
   width: 62%;
+
 }
 
 .extraspace {
@@ -202,9 +206,11 @@ textarea {
 	border-radius: 0.5em;
 	box-sizing: border-box;
 	min-height: 3em;
+	min-width: 50%;
 	width: 30%;
 	max-width: 50%;
 	max-height: 8em;
+	font-size: 2vw;
 }
 
 label {
@@ -214,11 +220,13 @@ label {
 input[type=text] {
 	outline: none;
 	border-radius: 0.5em;
+	font-size: 2vw;
 }
 
 input[type=email] {
 	outline: none;
 	border-radius: 0.5em;
+	font-size: 2vw;
 }
 
 input[type=submit] {
@@ -227,6 +235,22 @@ input[type=submit] {
     padding: 10px 15px;
     border: none;
     border-radius: 0.5em;
+		font-size: 2vw;
+		margin: 10px;
+}
+input[type=reset] {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0.5em;
+		font-size: 2vw;
+		margin: 10px;
+}
+
+.formbuttons {
+	padding-top: 20px;
+	margin-left: 300px;
 }
 
 footer {
