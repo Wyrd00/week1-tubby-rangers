@@ -31,8 +31,6 @@ a.anchorlink {
 	display: block;
 	position: relative;
 	margin-right: 2%;
-	/*top: -250px;*/
-	/*visibility: hidden;*/
 }
 
 .main {
@@ -81,11 +79,8 @@ header {
 
 .logo  {
 	display: inline-block;
-	/*max-width: ;*/
 	height: 3em;
 	margin-left: 4%;
-/*	box-sizing: border-box;
-*/}
 
 .row1 {
 	padding-left: 4%;
@@ -125,16 +120,13 @@ header {
 	display: inline-block;
 	max-width: 25%;
 	box-sizing: border-box;
-/*	border: 3px solid white;
-*/	padding-left: 3%;
+	padding-left: 3%;
 	padding-right: 3%;
 	border-radius: 50%;
-/*	padding-bottom: 3%*/
 }
 
 .photo img {
 	width: 100%;
-/*	border: 2px solid red;*/
 }
 
 figcaption {
@@ -163,9 +155,7 @@ figcaption {
 
 form {
   margin: 0 3% 0 3%;
-/*  width: auto;
-*/padding: 20px;
-
+  padding: 20px;
   border-radius: 20px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -201,7 +191,6 @@ form {
 
 textarea {
 	outline: none;
-/*	position: relative;*/
 	overflow: auto;
 	border-radius: 0.5em;
 	box-sizing: border-box;
