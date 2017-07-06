@@ -13,7 +13,7 @@ Our main objective is to create an intuitive website that help satisfy the user'
 
 The core-ethos behind our pseudo-company is the belief that we can delight today's generation with one of the more exceptional cartoons of the 90s - TellyTubbies.
 
-To accomplish this in the most effective manner, we dress up as TellyTubbies and re-enact various episodes of Tellytubbies for our clients. 
+To accomplish this in the most effective manner, we dress up as the characters Tinky Winky, Dipsy, LaaLaa and Po and re-enact various episodes of Tellytubbies for our clients. 
 
 Our site is sectioned off into the following:
   - Header
