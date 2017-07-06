@@ -1,6 +1,7 @@
 # week1-tubby-rangers
 When 4 Tubby rangers come together and create magic! 
 
+<a href="https://facn2.github.io/week1-tubby-rangers/" target="_blank">Our Website</a>
 https://facn2.github.io/week1-tubby-rangers/
 
 # WHY (describing the purpose)
