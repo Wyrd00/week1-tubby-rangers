@@ -90,19 +90,19 @@ header {
 		padding: 0.5%;
 }
 
-.project {
+.party {
 		position: relative;
 		padding: 2%;
 		z-index: 1;
 }
 
-.projectimages {
+.partyimages {
 		width: 33%;
 		height: auto;
 		border-radius: 4%;
 }
 
-.projectdescription {
+.partydescription {
 		margin: 0;
 		position: absolute;
 		top: 50%;
