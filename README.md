@@ -2,7 +2,6 @@
 When 4 Tubby rangers come together and create magic! 
 
 <a href="https://facn2.github.io/week1-tubby-rangers/" target="_blank">Our Website</a>
-https://facn2.github.io/week1-tubby-rangers/
 
 # WHY (describing the purpose)
 The purpose of this site is to showcase our pseudo-company and encourage our service to potential clients. 
