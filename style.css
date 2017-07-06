@@ -6,7 +6,7 @@
 		font-family: helvetica;
 }
 
-.NavNav {
+.navNav {
 		padding: 0.2em;
 		overflow: hidden;
 		background-color: #333;
@@ -16,7 +16,7 @@
 		z-index: 999;
 }
 
-.NavNav a {
+.navNav a {
 		float: right;
 		display: block;
 		color: #f2f2f2;
